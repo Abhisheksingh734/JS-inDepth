@@ -104,6 +104,7 @@ completion, or pending state for an asynchronus operation */
 
 
 // QUESTION 3----------------------
+console.time('program');
 
 console.log("Program started");
 
@@ -142,5 +143,6 @@ myPromise
     })
     .then((val)=>{
         console.log(val);
+        console.timeEnd('program');
     })
 
