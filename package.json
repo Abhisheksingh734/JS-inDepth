@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "practice-js",
+  "version": "1.0.0",
+  "main": "asyncAwait.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
